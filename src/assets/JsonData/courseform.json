@@ -1,0 +1,35 @@
+[
+    {
+        "label": "Course Name",
+        "name": "CourseName",
+        "error": "CourseName",
+        "helper": "CourseName",
+        "pattern": "",
+        "required": "Enter the Course Name",
+        "message": "Fisrt letter must be in captial",
+        "placeholder": "Course Name"
+    },
+    {
+        "label": "Fees",
+        "name": "Fees",
+        "error": "Fees",
+        "helper": "Fees",
+        "pattern": "/^[0-9]+/",
+        "required": "Enter the Course Fees",
+        "message": "Fisrt letter must be in captial",
+        "placeholder": "Fees"
+    },
+    {
+        "label": "Duration",
+        "name": "Duration",
+        "error": "Duration",
+        "helper": "Duration",
+        "pattern": "/^[1-6]{1}/",
+        "required": "Enter the Course Duration",
+        "message": "Enter in numbers",
+        "placeholder": "Duration",
+        "options":["3 Months","6 Months"],
+        "select":"select"
+    }
+   
+]

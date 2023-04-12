@@ -1,0 +1,49 @@
+[
+   
+    {
+        "label": "Discount %",
+        "name": "Discount",
+        "error": "Discount",
+        "helper": "Discount",
+        "pattern": "/^[0-9]{1,2}\\%/",
+        "required": "Enter the Discount",
+        "message": "Please Enter the format",
+        "placeholder": "Discount %"
+    },
+    {
+        "label": "Total Amount",
+        "name": "TotalAmount",
+        "error": "Total Amount",
+        "helper": "Total Amount",
+        "pattern": "/^[0-9]+/",
+        "required": "Enter the Total Amount",
+        "message": "Please Enter the Total Amount",
+        "placeholder": "Total Amount"
+    },
+    {
+        "label": "Term",
+        "name": "Term",
+        "error": "Term",
+        "helper": "Term",
+        "pattern": " /^[0-3]{1}/",
+        "required": "select the Term",
+        "message": "Please Enter the Term",
+        "placeholder": "Term",
+        "select": "select",
+        "options": [
+            "First Term",
+            "Second Term",
+            "Third Term"
+        ]
+    },
+    {
+        "label": "payment Method",
+        "name": "paymentMethod",
+        "error": "payment Method",
+        "helper": "payment Method",
+        "pattern": "/^[A-Za-z]+/",
+        "required": "Enter the payment Method",
+        "message": "Please Enter the payment Method",
+        "placeholder": "Payment Method"
+    }
+]

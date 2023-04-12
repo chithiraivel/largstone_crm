@@ -1,0 +1,15 @@
+[
+   
+    {
+        "label": "Session",
+        "name": "Session",
+        "error": "Session",
+        "helper": "Session",
+        "pattern": "/^[A-Z]{1}[0-9]{3}/",
+        "required": "Enter the Session",
+        "message": "",
+        "placeholder": "Session",
+        "options":["Morning","AfterNoon","Evenning","SaturDay/SunDay"],
+        "select":"select"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Students",
+        "route": "/RegistrationTable",
+        "icon": "bx bx-group",
+        "route1":"/RegistrationTable/RegistrationForm"
+    },
+    {
+        "display_name": "Course",
+        "route": "/CourseTable",
+        "icon": "bx bxs-book-bookmark",
+        "route1":"/CourseTable/CourseForm"
+    },
+    {
+        "display_name": "Invoice",
+        "route": "/InvoiceTable",
+        "icon": "bx bx-dollar",
+        "route1":"/InvoiceTable/Invoiceform"
+    },
+    {
+        "display_name": "Customer",
+        "route": "/Customer",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Batchs",
+        "route": "/BatchTable",
+        "icon": "bx bx-list-ol",
+        "route1":"/BatchTable/BatchForm/:action/:id"
+    }
+   
+    
+   
+]
